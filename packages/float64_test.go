@@ -2,7 +2,7 @@ package packages_test
 
 import (
 	"encoding/json"
-	"github.com/mydisha/tdd/packages"
+	"github.com/mydisha/golang-tdd/packages"
 	"testing"
 )
 

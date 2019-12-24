@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Usage: script/cibuild
+# run tests
+
+set -env
+scripts/goget
+scripts/gocover

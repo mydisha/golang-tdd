@@ -3,9 +3,9 @@
 # coverage test
 
 set -e
-go test ./package/... -covermode=count -coverprofile=cover.out
-go test ./package/... -json > test-report.out
-go test ./package/... -coverprofile=coverate.out
+go test ./packages/... -covermode=count -coverprofile=cover.out
+go test ./packages/... -json > test-report.out
+go test ./packages/... -coverprofile=coverate.out
 
 go tool cover -func=cover.out
 

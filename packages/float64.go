@@ -1,4 +1,4 @@
-package tdd
+package packages
 
 import "fmt"
 

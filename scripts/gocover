@@ -9,4 +9,4 @@ go test ./package/... -coverprofile=coverate.out
 
 go tool cover -func=cover.out
 
-$HOME/gopath/bin/goveralss -coverprofile=cover.out -service=travis-coverprofile
+$HOME/gopath/bin/goveralls -coverprofile=cover.out -service=travis-coverprofile
